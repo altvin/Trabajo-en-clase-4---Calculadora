@@ -1,36 +1,5 @@
-/*
-// Ejercicio 1
-
-let radio = parseFloat(prompt("Digite el valor del radio: "));
-const areaCirculo = Math.PI * Math.pow(radio, 2); 
-console.log("Area del circulo es: ", areaCirculo);
-*/
-
-/*
-// Ejercicio 2
-
-let radio = parseFloat(prompt("Digite el valor del cilindro: "));
-let alturaCilindro = parseFloat(prompt("Digite la altura del cilindro: "));
-const areaCilindro = (2 * Math.PI * radioCilindro *alturaCilindro)+(2*Math.PI*Math.pow(radioCilindro, 2)); 
-console.log("El area del cilindro es: ", areaCilindro);
-
-*/
-
-/*
-// Ejercicio 3
-
-// Repetir una linea de codigo x cantidad de veces
-for (let contador = 1; contador < 100; contador++) { // contador = i - comparacion 99 veces
-    if( contador % 2 === 0){
-        console.log(contador);
-
-    }
-}
-
-*/
-
 // Ejercicio 4
-
+// Calculadora
 //Funciones para cada operación
 
 function sumar(a, b) { 
@@ -58,7 +27,8 @@ function sumar(a, b) {
 
 // Función principal para realizar operaciones
 function calcular(){
-    // Pedir los numeros y la operacion al usuario
+    
+    // Pedir los números y la operación al usuario
     const numero1 = parseFloat(prompt("Ingresa el primer numero: "));
     const numero2 = parseFloat(prompt("Ingresa el segundo numero: "));
     const operacion = parseFloat(prompt("Ingresa la operación (+, -, *, /): "));
